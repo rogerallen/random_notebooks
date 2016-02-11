@@ -16,25 +16,22 @@ in the past.
 
 *** Update
 
-```
+#+begin_src sh
 unset PYTHONPATH
 set PATH=~/anaconda/bin/:$PATH
 
-> which python
-/Users/rallen/anaconda/bin/python
-
-> which conda
-/Users/rallen/anaconda/bin/conda
+which python
+# /Users/rallen/anaconda/bin/python
 
 conda update conda
 conda install anaconda=2.5
-```
+#+end_src sh
 
 *** Run
 
-```
+#+begin_src sh
 env PYTHONPATH= PATH=~/anaconda/bin/:$PATH ipython3 notebook
-```
+#+end_src sh
 
 ** PC
 
