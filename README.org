@@ -1,0 +1,51 @@
+* Random IPython Notebooks
+
+Using this space to store random notebooks that I create while I
+explore ipython.
+
+I use Anaconda python to keep sane across Mac/Win/Linux
+
+* Installation, Usage Notes
+
+Every platform is different & this is how things work for me.
+
+** Mac
+
+Mac has its own python and making anaconda the default was problematic
+in the past.
+
+*** Update
+
+```
+unset PYTHONPATH
+set PATH=~/anaconda/bin/:$PATH
+
+> which python
+/Users/rallen/anaconda/bin/python
+
+> which conda
+/Users/rallen/anaconda/bin/conda
+
+conda update conda
+conda install anaconda=2.5
+```
+
+*** Run
+
+```
+env PYTHONPATH= PATH=~/anaconda/bin/:$PATH ipython3 notebook
+```
+
+** PC
+
+TBD
+** Linux
+
+TBD
+
+* License
+
+These notebooks are in the public domain (or the equivalent where that
+is not possible). You can do anything you want with them. You have no
+legal obligation to do anything else, although I appreciate
+attribution.
