@@ -35,7 +35,22 @@ env PYTHONPATH= PATH=~/anaconda/bin/:$PATH ipython3 notebook
 
 ** PC
 
-TBD
+Update similar to Mac.  Both in C:/Anaconda and c:/Anaconda3
+
+*** Run
+
+In Git Bash:
+
+#+begin_src sh
+/c/Anaconda3/Scripts/ipython3.exe notebook
+#+end_src sh
+
+In Windows Command:
+
+#+begin_src sh
+C:\Anaconda3\Scripts\ipython3.exe notebook
+#+end_src sh
+
 ** Linux
 
 TBD
