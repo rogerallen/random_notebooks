@@ -1,59 +1,9 @@
-* Random IPython Notebooks
+* Random Jupyter Notebooks
 
 Using this space to store random notebooks that I create while I
-explore ipython.
+explore different ways of using Jupyter Notebooks.
 
-I use Anaconda python to keep sane across Mac/Win/Linux
-
-* Installation, Usage Notes
-
-Every platform is different & this is how things work for me.
-
-** Mac
-
-Mac has its own python and making anaconda the default was problematic
-in the past.
-
-*** Update
-
-#+begin_src sh
-unset PYTHONPATH
-set PATH=~/anaconda/bin/:$PATH
-
-which python
-# /Users/rallen/anaconda/bin/python
-
-conda update conda
-conda install anaconda=2.5
-#+end_src sh
-
-*** Run
-
-#+begin_src sh
-env PYTHONPATH= PATH=~/anaconda/bin/:$PATH ipython3 notebook
-#+end_src sh
-
-** PC
-
-Update similar to Mac.  Both in C:/Anaconda and c:/Anaconda3
-
-*** Run
-
-In Git Bash:
-
-#+begin_src sh
-/c/Anaconda3/Scripts/ipython3.exe notebook
-#+end_src sh
-
-In Windows Command:
-
-#+begin_src sh
-C:\Anaconda3\Scripts\ipython3.exe notebook
-#+end_src sh
-
-** Linux
-
-TBD
+I use Anaconda python to keep sane across Mac/Win/Linux.
 
 * License
 
