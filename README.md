@@ -9,9 +9,9 @@ I use Anaconda python to keep sane across Mac/Win/Linux.
 
 I had to do this to get jupyter notebook running in the terminal.
 
-jupyter notebook --NotebookApp.allow_origin='https://rogerallen-scaling-umbrella-jj9pqqv9p6c5prj-8888.preview.app.github.dev' --no-browser
+Take note of the URL you are currently at running VS Code.  Something like `https://something-something-gobbledygook.github.dev`.  Then use part of that URL in the command below:
 
-I'm not sure how to get that origin except by starting it once, seeing the error and re-running.
+`jupyter notebook --NotebookApp.allow_origin='https://something-something-gobbledygook-8888.preview.app.github.dev' --no-browser`
 
 Then click on the http://localhost:8888/?token=XXX URL 
 
