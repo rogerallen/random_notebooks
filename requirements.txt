@@ -1,5 +1,9 @@
+python3-bs4
 ipywidgets==7.7.1
 matplotlib
 numpy
 pandas
+Pillow
+requests
+scipy
 tqdm==4.64.0
