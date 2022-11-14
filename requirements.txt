@@ -1,5 +1,6 @@
-python3-bs4
+beautifulsoup4
 ipywidgets==7.7.1
+lxml
 matplotlib
 numpy
 pandas
